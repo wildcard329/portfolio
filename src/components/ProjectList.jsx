@@ -1,8 +1,9 @@
 import ProjectCard from "./ProjectCard.jsx";
+import "./ProjectList.css";
 
 const ProjectList = ({ projects }) => 
-  <div className="project-grid">
-    {projects?.map((project) => <ProjectCard key={project?.id} project={project} />)}
-  </div>
+  <ul className="project-grid">
+    {projects?.map((project) => <li key={project?.id}><ProjectCard project={project} /></li>)}
+  </ul>
 
 export default ProjectList;
