@@ -1,3 +1,18 @@
 .project-card {
-    
+  max-width: 500px;
+  padding: 1rem;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1rem;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
 }
