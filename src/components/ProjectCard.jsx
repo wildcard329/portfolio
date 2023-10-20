@@ -6,8 +6,8 @@ import "./ProjectCard.css";
 
 const ProjectCard = ({ project: { name, tools, description, image, githubLink, siteLink }}) => {
   const { theme } = useContext(themeContext);
-  const getUrl = (path) => new URL(path, import.meta.url).href;
-  const asset = getUrl(`../assets/images/${image}.png`);
+  const getUrl = (file) => new URL(`../assets/images/${file}.png`, import.meta.url).href;
+  const asset = getUrl(image);
 
   return(
     <div className={`project-card ${theme === 'dark' ? 'dark-pro-card' : 'light-pro-card'}`}>
