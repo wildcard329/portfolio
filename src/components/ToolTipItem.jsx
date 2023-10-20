@@ -1,9 +1,13 @@
-import "./ToolTipItem.css";
+import "./TooltipItem.css";
 
-const ToolTipItem = ({ children, label }) => 
-  <div className="tooltip">
-    {children}
-    <span className="tooltip-text">{label}</span>
-  </div>
+const ToolTipItem = ({ children, label }) => {
+
+  return(
+    <div className="tooltip">
+      {children}
+      <span className="tooltip-text">{label}</span>
+    </div>
+  )
+}
 
 export default ToolTipItem;
