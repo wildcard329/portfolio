@@ -1,0 +1,18 @@
+.categories-list {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.categories-list button {
+  text-transform: capitalize;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+.skills-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}

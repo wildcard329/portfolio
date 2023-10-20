@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d1c1d8a2-6eb0-11ee-b962-0242ac120002",
+    "name": "LinkedIn",
+    "href": "https://www.linkedin.com/in/adam-f-david/",
+    "type": "site"
+  },
+  {
+    "id": "df552d5c-6eb0-11ee-b962-0242ac120002",
+    "name": "Mobile",
+    "href": "tel:+13605182932",
+    "type": "mobile"
+  },
+  {
+    "id": "eca69964-6eb0-11ee-b962-0242ac120002",
+    "name": "email",
+    "href": "mailto:adam.david8296@gmail.com",
+    "type": "email"
+  },
+  {
+    "id": "f99c731e-6eb0-11ee-b962-0242ac120002",
+    "name": "GitHub",
+    "href": "https://github.com/wildcard329/",
+    "type": "site"
+  }
+]

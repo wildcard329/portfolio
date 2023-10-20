@@ -24,12 +24,22 @@ ol[role='list'] {
   list-style: none;
 }
 
+ul, ol {
+  padding-left: 0;
+}
+
 /* Set core body defaults */
 body {
   min-height: 100vh;
+  max-width: 100%;
   line-height: 1.5;
   margin: 0;
   padding: 0;
+}
+
+section {
+  margin: 2rem auto;
+  width: 60%;
 }
 
 /* Set shorter line heights on headings and interactive elements */

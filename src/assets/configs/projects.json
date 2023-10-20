@@ -2,7 +2,7 @@
   {
     "id": "30de0e84-6c75-11ee-b962-0242ac120002",
     "name": "Recipe Rollout",
-    "tools": ["react", "aws", "node"],
+    "tools": ["React", "AWS", "Node"],
     "description": "Recipe Rollout is the one-stop shop for all things recipes! Unite with food enthusiasts worldwide to effortlessly exchange and discover delectable recipes and ingredients. Join the community, fuel your culinary creativity, and savor the joy of sharing flavors. Your next culinary adventure starts here!\n\nThis webapp was built with React, Node, and AWS. Challenges I ran into include learning AWS technologies and implementing OAuth 2.0. This app is deployed on AWS.",
     "siteLink": "https://main.d3nres1avtnmum.amplifyapp.com/",
     "githubLink": "https://github.com/wildcard329/recipes_fe",
@@ -11,7 +11,7 @@
   {
     "id": "3aae2782-6c75-11ee-b962-0242ac120002",
     "name": "Origami Store",
-    "tools": ["react", "css", "html"],
+    "tools": ["React", "CSS", "HTML"],
     "description": "Welcome to the world of paper magic! Our online origami store is your gateway to an enchanting realm of creativity and craftsmanship. Discover a captivating collection of origami paper, tools, and expert guides. Unfold your imagination and transform simple sheets into exquisite art. Elevate your origami journey with us! This app was built with React and is deployed on Netlify.",
     "siteLink": "https://origami-store.netlify.app/",
     "githubLink": "https://github.com/wildcard329/origami-frontend-store",

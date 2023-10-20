@@ -1,5 +1,55 @@
 .container {
-  background-color: #eee;
   min-width: 100vw;
   min-height: 100vh;
+}
+
+#portfolio {
+  position: relative;
+}
+
+.anchor-target {
+  display: block;
+  position: relative;
+  top: -6rem;
+  visibility: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
+.light {
+  background-color: #eee;
+}
+
+.dark {
+  background-color: #222;
+  color: white;
+}
+
+.card {
+  border: thin solid gray;
+  padding: 1rem;
+}
+
+.dark-card {
+  background-color: darkslategray;
+}
+
+.light-card {
+  background-color: #fff;
+}
+
+.dark-btn {
+  background-color: #222;
+  color: white;
+}
+
+.light-btn {
+  background-color: #eee;
+}
+
+.z-1 {
+  position: relative;
+  z-index: 1;
 }
