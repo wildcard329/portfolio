@@ -1,4 +1,4 @@
-import "./TooltipItem.css";
+import "./ToolTipItem.css";
 
 const ToolTipItem = ({ children, label }) => {
 
