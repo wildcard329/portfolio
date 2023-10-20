@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => 
   <footer id="footer">
-    &copy;2023 Adam David Portfolio
+    &copy;Adam David Portfolio 2023
   </footer>
 
 export default Footer;

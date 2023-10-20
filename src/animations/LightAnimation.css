@@ -1,0 +1,64 @@
+.light-animation {
+  color: black;
+  border: thin solid white;
+  text-shadow: whitesmoke 1px 0 10px;
+  background-image: url("../assets/images/water.jpg");
+  background-color: white;
+  background-blend-mode: multiply;
+  animation: light-pulse 20s infinite;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+@keyframes dark-pulse {
+  0% {
+    background-color: orangered;
+  }
+  25% {
+    background-color: #CC5500;
+  }
+  50% {
+    background-color: orangered;
+  }
+  75% {
+    background-color: red;
+  }
+  100% {
+    background-color: orangered;
+  }
+}
+  
+@keyframes light-pulse {
+  0% {
+    background-color: aliceblue;
+    background-position: 0 0;
+  }
+  15% {
+    background-position: 10% 25%;
+  }
+  25% {
+    background-color: lightskyblue;
+    background-position: 60% 45%;
+  }
+  35% {
+    background-color: azure;
+    background-position: 75% 90%;
+  }
+  50% {
+    background-color: navy;
+    background-position: 100% 100%;
+  }
+  55% {
+    background-color: aquamarine;
+    background-position: 60% 45%;
+  }
+  75% {
+    background-color: royalblue;
+    background-position: 10% 25%;
+  }
+  100% {
+    background-color: aliceblue;
+    background-position: 0 0;
+  }
+}

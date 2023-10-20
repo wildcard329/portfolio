@@ -10,7 +10,6 @@ import Skills from './components/Skills';
 import Socials from './components/Socials';
 import { themeContext } from './utils/themeContext';
 import Footer from './components/Footer';
-import BackgroundAnimation from './components/BackgroundAnimation';
 
 const App = () => {
   const { theme } = useContext(themeContext);
@@ -18,23 +17,23 @@ const App = () => {
   return(
     <div id="portfolio" className={theme}>
       <Header />
-      <BackgroundAnimation />
-      <section className='z-1'>
-        <Profile />
-      </section>
-      <section className='z-1 clear'>
-        <Skills skills={SKILLS} />
-      </section>
-      <section className='z-1'>
-        <ProjectList projects={PROJECTS} />
-      </section>
-      <section className='z-1'>
-        <Socials socials={SOCIALS} />
-      </section>
+      <div className={`animation-bg ${theme === 'dark' ? 'dark-animation' : 'light-animation'}`}>
+        <section className='z-1 shrink-width'>
+          <Profile />
+        </section>
+        <section className='z-1 shrink-width'>
+          <Skills skills={SKILLS} />
+        </section>
+        <section className='z-1 shrink-width'>
+          <ProjectList projects={PROJECTS} />
+        </section>
+        <section className='z-1 shrink-width'>
+          <Socials socials={SOCIALS} />
+        </section>
+      </div>
       <Footer />
     </div>
   )
 }
-
 
 export default App

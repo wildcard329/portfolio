@@ -1,0 +1,17 @@
+.profile {
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: larger;
+}
+
+.profile-title {
+  padding-bottom: 1rem;
+}
+
+.dark-profile {
+  background-color: darkslategray;
+}
+
+.light-profile {
+  background-color: aliceblue;
+}
