@@ -2,11 +2,11 @@ import { useContext } from "react";
 import { themeContext } from "../utils/themeContext";
 import IconParser from "./IconParser";
 import ToolTipItem from "./ToolTipItem";
-import { getUrl } from "../utils/functions";
 import "./ProjectCard.css";
 
 const ProjectCard = ({ project: { name, tools, description, image, githubLink, siteLink }}) => {
   const { theme } = useContext(themeContext);
+  const getUrl = (path) => new URL(path, import.meta.url).href;
   const asset = getUrl(`../assets/images/${image}.png`);
 
   return(
