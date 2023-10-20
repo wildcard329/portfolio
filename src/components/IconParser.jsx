@@ -19,7 +19,7 @@ const IconParser = ({ label }) => {
       return <BiLogoSass size={30} />;
     case 'html':
       return <BiLogoHtml5 size={30} />;
-    case 'postgres':
+    case 'postgresql':
       return <BiLogoPostgresql size={30} />;
     case 'sql':
       return <TbSql size={30} />;

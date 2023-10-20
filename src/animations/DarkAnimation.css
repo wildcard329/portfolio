@@ -1,0 +1,29 @@
+.dark-animation {
+  background-image: url("../assets/images/live-coal.jpg");
+  background-color: orangered;
+  background-blend-mode: multiply;
+  animation: dark-pulse 2s infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+@keyframes dark-pulse {
+  0% {
+    background-color: orangered;
+  }
+  25% {
+    background-color: #CC5500;
+  }
+  50% {
+    background-color: orangered;
+  }
+  75% {
+    background-color: red;
+  }
+  100% {
+    background-color: orangered;
+  }
+}

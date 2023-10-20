@@ -1,3 +1,6 @@
+@import url("./animations/DarkAnimation.css");
+@import url("./animations/LightAnimation.css");
+
 .container {
   min-width: 100vw;
   min-height: 100vh;
@@ -5,6 +8,10 @@
 
 #portfolio {
   position: relative;
+}
+
+.animation-bg {
+  padding: 2rem;
 }
 
 .anchor-target {
@@ -20,11 +27,19 @@
 
 .light {
   background-color: #eee;
+  background-image: url("./assets/images/water.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .dark {
   background-color: #222;
   color: white;
+  background-image: url("./assets/images/coal.jpg");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card {
@@ -37,7 +52,7 @@
 }
 
 .light-card {
-  background-color: #fff;
+  background-color: aliceblue;
 }
 
 .dark-btn {
@@ -47,6 +62,10 @@
 
 .light-btn {
   background-color: #eee;
+}
+
+.shrink-width {
+  width: 80%;
 }
 
 .z-1 {

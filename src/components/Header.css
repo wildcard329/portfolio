@@ -7,6 +7,8 @@
   padding: 1rem 4rem 1rem 1rem;
   z-index: 2;
   border-bottom: thin solid gray;
+  background-image: none;
+  margin-bottom: 4rem;
 }
 
 .nav-list {

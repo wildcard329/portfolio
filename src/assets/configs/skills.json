@@ -1,56 +1,56 @@
 [
   {
-    "id": "",
+    "id": "e1a97b30-6f91-11ee-b962-0242ac120002",
     "name": "HTML",
     "type": "frontend"
   },
   {
-    "id": "",
+    "id": "eade1ad0-6f91-11ee-b962-0242ac120002",
     "name": "CSS",
     "type": "frontend"
   },
   {
-    "id": "",
+    "id": "f2370724-6f91-11ee-b962-0242ac120002",
     "name": "SCSS",
     "type": "frontend"
   },
   {
-    "id": "",
+    "id": "f9d8343a-6f91-11ee-b962-0242ac120002",
     "name": "Node",
     "type": "backend"
   },
   {
-    "id": "",
+    "id": "00b376b6-6f92-11ee-b962-0242ac120002",
     "name": "PostgreSQL",
     "type": "other"
   },
   {
-    "id": "",
+    "id": "080579be-6f92-11ee-b962-0242ac120002",
     "name": "React",
     "type": "frontend"
   },
   {
-    "id": "",
+    "id": "0f1bfc50-6f92-11ee-b962-0242ac120002",
     "name": "Redux",
     "type": "frontend"
   },
   {
-    "id": "",
+    "id": "178d3746-6f92-11ee-b962-0242ac120002",
     "name": "AWS",
     "type": "other"
   },
   {
-    "id": "",
+    "id": "1e861a54-6f92-11ee-b962-0242ac120002",
     "name": "JavaScript",
     "type": "frontend"
   },
   {
-    "id": "",
+    "id": "268b4ae4-6f92-11ee-b962-0242ac120002",
     "name": "SQL",
     "type": "other"
   },
   {
-    "id": "",
+    "id": "2d22026c-6f92-11ee-b962-0242ac120002",
     "name": "Heroku",
     "type": "other"
   }
