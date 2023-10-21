@@ -37,5 +37,6 @@
 
 .light-pro-card {
   background-color: white;
-  border: thin solid gray
+  border-top: thin solid gray;
+  border-left: thin solid gray;
 }

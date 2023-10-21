@@ -1,8 +1,5 @@
 .categories-list {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  gap: 1rem;
+  display: none;
 }
 
 .categories-list button {
@@ -15,4 +12,17 @@
   display: flex;
   list-style: none;
   gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .categories-list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .mobile-select {
+    display: none;
+  }
 }

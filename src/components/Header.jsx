@@ -1,16 +1,32 @@
-import { useContext } from "react";
+import { useContext, useState, useRef } from "react";
 import { themeContext } from "../utils/themeContext.jsx";
 import { BsArrowDown } from "react-icons/bs";
+import { RxHamburgerMenu } from "react-icons/rx";
 import "./Header.css";
 import resume from "../assets/files/Adam_David_React_Developer_Resume.pdf";
 
 const Header = () => {
   const { theme, toggleTheme } = useContext(themeContext);
+  const [isShowingMenu, setIsShowingMenu] = useState(false);
+  const navRef = useRef();
+
+  const toggleMenu = () => {
+    if (isShowingMenu) {
+      setIsShowingMenu(false);
+      navRef.current.classList.add('mobile-hidden');
+    } else {
+      setIsShowingMenu(true);
+      navRef.current.classList.remove('mobile-hidden');
+    };
+  };
 
   return(
     <header id="app-header" className={theme}>
       <nav>
-        <ul className="nav-list">
+        <button className="mobile-nav-btn" onClick={toggleMenu}>
+          <RxHamburgerMenu size={30} />
+        </button>
+        <ul className="nav-list" ref={navRef}>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
