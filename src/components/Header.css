@@ -11,11 +11,17 @@
   margin-bottom: 4rem;
 }
 
+.mobile-hidden {
+  display: none;
+}
+
 .nav-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   list-style: none;
   gap: 1rem;
+  position: absolute;
+  z-index: 2;
 }
 
 #mode-btn {
@@ -77,4 +83,16 @@
 .dark {
   background-color: #222;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .nav-list {
+    flex-direction: row;
+  }
+  .mobile-nav-btn {
+    display: none;
+  }
+  .mobile-hidden {
+    display: flex;
+  }
 }

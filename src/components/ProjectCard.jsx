@@ -10,7 +10,7 @@ const ProjectCard = ({ project: { name, tools, description, image, githubLink, s
   const asset = getUrl(image);
 
   return(
-    <div className={`project-card ${theme === 'dark' ? 'dark-pro-card' : 'light-pro-card'}`}>
+    <div className={`project-card card-border ${theme === 'dark' ? 'dark-pro-card' : 'light-pro-card'}`}>
       <h3>{name}</h3>
       <article className="pro-card-article">
         <h4>Tools: </h4>

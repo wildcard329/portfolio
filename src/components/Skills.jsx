@@ -34,6 +34,12 @@ const Skills = ({ skills }) => {
     <div className={`card ${theme === 'dark' ? 'dark-card' : 'light-card'}`}>
       <a id="skills" className="anchor-target"></a>
       <h3>Skills:</h3>
+      <select className="mobile-select" onChange={(e) => handleFilter(e.target.value)}>
+        <option value="all">All</option>
+        <option value="frontend">Front End</option>
+        <option value="backend">Back End</option>
+        <option value="other">Other</option>
+      </select>
       <ul className="categories-list">
         <li><button onClick={() => handleFilter('all')} className={theme === 'dark' ? 'dark-btn' : 'light-btn'}>all</button></li>
         <li><button onClick={() => handleFilter('frontend')} className={theme === 'dark' ? 'dark-btn' : 'light-btn'}>front end</button></li>

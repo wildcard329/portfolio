@@ -1,7 +1,14 @@
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   list-style: none;
   color: black;
   gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

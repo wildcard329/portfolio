@@ -18,16 +18,16 @@ const App = () => {
     <div id="portfolio" className={theme}>
       <Header />
       <div className={`animation-bg ${theme === 'dark' ? 'dark-animation' : 'light-animation'}`}>
-        <section className='z-1 shrink-width'>
+        <section className='z-1 shrink-width card-border'>
           <Profile />
         </section>
-        <section className='z-1 shrink-width'>
+        <section className='z-1 shrink-width card-border'>
           <Skills skills={SKILLS} />
         </section>
-        <section className='z-1 shrink-width'>
+        <section className='z-1 shrink-width card-border'>
           <ProjectList projects={PROJECTS} />
         </section>
-        <section className='z-1 shrink-width'>
+        <section className='z-1 shrink-width card-border'>
           <Socials socials={SOCIALS} />
         </section>
       </div>
