@@ -116,6 +116,7 @@
     top: auto;
     left: auto;
     position: static;
+    background-color: none;
   }
   .nav-list li {
     width: min-content;
