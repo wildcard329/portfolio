@@ -22,6 +22,26 @@
   gap: 1rem;
   position: absolute;
   z-index: 2;
+  background-image: none;
+  background-color: #eee;
+  top: 75px;
+  left: 0;
+  margin: 0 auto;
+}
+
+.nav-list li {
+  gap: 1rem;
+  width: 100vw;
+  text-align: center;
+  margin-left: 0;
+}
+
+.nav-list li {
+  border-bottom: thin solid black;
+}
+
+.nav-list:last-child {
+  border-bottom: none;
 }
 
 #mode-btn {
@@ -57,6 +77,10 @@
   background-color: white;
 }
 
+.resume-btn a {
+  text-decoration: none;
+}
+
 .right {
   right: 2px;
   background-color: white;
@@ -88,11 +112,19 @@
 @media (min-width: 768px) {
   .nav-list {
     flex-direction: row;
+    padding: auto;
+    top: auto;
+    left: auto;
+    position: static;
+  }
+  .nav-list li {
+    width: min-content;
+    border-bottom: none;
   }
   .mobile-nav-btn {
     display: none;
   }
   .mobile-hidden {
-    display: flex;
+    display: block;
   }
 }

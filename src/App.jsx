@@ -17,7 +17,7 @@ const App = () => {
   return(
     <div id="portfolio" className={theme}>
       <Header />
-      <div className={`animation-bg ${theme === 'dark' ? 'dark-animation' : 'light-animation'}`}>
+      <div>
         <section className='z-1 shrink-width card-border'>
           <Profile />
         </section>
