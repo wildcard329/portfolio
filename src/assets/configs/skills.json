@@ -22,7 +22,7 @@
   {
     "id": "00b376b6-6f92-11ee-b962-0242ac120002",
     "name": "PostgreSQL",
-    "type": "other"
+    "type": "backend"
   },
   {
     "id": "080579be-6f92-11ee-b962-0242ac120002",
@@ -47,7 +47,7 @@
   {
     "id": "268b4ae4-6f92-11ee-b962-0242ac120002",
     "name": "SQL",
-    "type": "other"
+    "type": "backend"
   },
   {
     "id": "2d22026c-6f92-11ee-b962-0242ac120002",
